@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page Creation With Specific Elements</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <!-- slack name -->
+        <h1 data-testid="slackUserName">Irene Njuguna</h1>
+        <!-- slack display picture -->
+        <img
+            src="https://ca.slack-edge.com/T05FFAA91JP-U05RD813N3E-e495bacaf94b-512"
+            alt="Irene Njuguna" data-testid="slackDisplayimage">
+        <!--current days of the week -->
+        <p data-testid="currentDayOfTheWeek"></p>
+        <!-- current utc time -->
+        <p data-testid="currentUTCTime"></p>
+        <!-- my track -->
+        <p data-testid="myTrack">Frontend</p>
+        <!-- github url -->
+        <a href="https://github.com/Stensis/hng-page-creation.git"
+            data-testid="githubURL">
+            hng-page-creation</a>
+
+        <script src="index.js"></script>
+    </body>
 </html>
