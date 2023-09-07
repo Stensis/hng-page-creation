@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(199, 214, 228);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+}
+
+h1 {
+  color: rgb(16, 19, 20);
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border: 2px solid rgb(22, 25, 27);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+h3 {
+    color: darkolivegreen;
+    font-size: 20px;
+    margin:0px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(48, 38, 71);
+  transition: color 0.4s;
+}
+
+a:hover{
+    color:rgb(250, 104, 46);
+}
