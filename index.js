@@ -9,4 +9,4 @@ function updateTime() {
     '[data-testid="currentUTCTime"]'
   ).textContent = `${hours}:${minutes}:${seconds}`;
 }
-setInterval(updateTime, 1000);
+setInterval(updateTime, 100);
